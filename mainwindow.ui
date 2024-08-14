@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Sun</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mercury</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Venus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Earth</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mars</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jupiter</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Saturn</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Uranus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Neptune</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>Sun</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mercury</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Venus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Earth</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mars</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jupiter</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Saturn</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Uranus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Neptune</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>calculate distance</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>distance</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlanet_Distance">
+    <property name="title">
+     <string>Planet Distance</string>
+    </property>
+   </widget>
+   <addaction name="menuPlanet_Distance"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
